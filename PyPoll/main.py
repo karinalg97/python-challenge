@@ -3,7 +3,7 @@ import os
 import csv
 
 # Assign file location with the pathlib library
-csv_file_path = os.path.join(".", "Resources", "election_data.csv")
+csv_file_path = os.path.join("..", "Resources", "election_data.csv")
 
 # Declare Variables 
 total_votes = 0 
