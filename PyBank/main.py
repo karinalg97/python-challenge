@@ -3,7 +3,7 @@ import os
 import csv
 
 # Declare file location through pathlib
-input_file = os.path.join(".", "Resources", "budget_data.csv")
+input_file = os.path.join("..", "Resources", "budget_data.csv")
 
 # Create empty list to iterate through specific rows for the following variables
 total_months = []
